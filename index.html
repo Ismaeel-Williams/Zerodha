@@ -8,31 +8,36 @@
   <body>
     <nav class="navbar">
       <div class="nav-box">
-        <img src="img/logo.svg" class="nav-logo" />
-      </div>
-      <div class="ul-box">
-        <ul>
-          <li>Signup</li>
-          <li>About</li>
-          <li>Products</li>
-          <li>Pricing</li>
-          <li>Support</li>
-        </ul>
+        <div class="nav-logo-box">
+          <img src="img/logo.svg" class="nav-logo" />
+        </div>
+        <div class="nav-ul-box">
+          <ul class="nav-ul">
+            <li>Signup</li>
+            <li>About</li>
+            <li>Products</li>
+            <li>Pricing</li>
+            <li>Support</li>
+          </ul>
+        </div>
       </div>
     </nav>
+    <br class="line-break" />
     <section class="landing-page">
-      <div>
+      <div class="container">
         <img
           class="zerodha-landing-img"
           src="./img/zerodha-landing.png"
           alt="homepage-img"
         />
         <h1>Invest in everything</h1>
-        <p class="landing-para">
+        <h5>
           Online platform to invest in stocks, derivatives, mutual funds, and
           more
-        </p>
-        <button onclick="loginpage" class="btn">Sign up now</button>
+        </h5>
+        <button onclick="loginpage">
+          <a href="/index.html">Sign up now</a>
+        </button>
       </div>
     </section>
   </body>
